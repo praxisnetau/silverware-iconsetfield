@@ -4,7 +4,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/silverware/iconsetfield/v/unstable)](https://packagist.org/packages/silverware/iconsetfield)
 [![License](https://poser.pugx.org/silverware/iconsetfield/license)](https://packagist.org/packages/silverware/iconsetfield)
 
-A responsive form field for [SilverStripe v4][silverstripe-framework], similar to CheckboxSetField... but with icons!
+A responsive form field for [SilverStripe v4][silverstripe-framework], similar to CheckboxSetField...
+but with [Font Awesome][font-awesome] icons!
 
 ![IconSetField](https://i.imgur.com/9qGL9fF.gif)
 
