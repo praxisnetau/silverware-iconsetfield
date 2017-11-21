@@ -23,7 +23,7 @@ A responsive form field for [SilverStripe v4][silverstripe-framework], similar t
 ## Requirements
 
 - [SilverStripe Framework v4][silverstripe-framework]
-- [SilverWare Font Icons][silverware-font-icons]
+- [SilverWare Font Icons][silverware-font-icons] (includes [Font Awesome][font-awesome])
 - default CSS classes are configured for the [Bootstrap][bootstrap] grid
 
 ## Installation
