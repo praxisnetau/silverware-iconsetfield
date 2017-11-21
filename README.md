@@ -34,7 +34,7 @@ Installation is via [Composer][composer]:
 $ composer require silverware/iconsetfield
 ```
 
-**Note:** forms on the website will automatically load the field requirements
+**Note:** forms on the website will automatically load the field requirements if
 the app is using [SilverWare][silverware]. If you are using a vanilla SilverStripe
 project, you'll need to load the module script and styles in your app bundle
 (jQuery is required):
