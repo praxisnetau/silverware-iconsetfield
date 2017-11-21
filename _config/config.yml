@@ -1,0 +1,23 @@
+---
+Name: silverware-iconsetfield
+---
+
+# Configure Admin Extensions:
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - "silverware/iconsetfield: client/dist/styles/bundle.css"
+  extra_requirements_javascript:
+    - "silverware/iconsetfield: client/dist/js/bundle.js"
+  extensions:
+    - SilverWare\IconSetField\Extensions\ControllerExtension
+
+# Configure Content Controller:
+
+SilverStripe\CMS\Controllers\ContentController:
+  required_js:
+    - "silverware/iconsetfield: client/dist/js/bundle.js"
+  required_css:
+    - "silverware/iconsetfield: client/dist/styles/bundle.css"
+  extensions:
+    - SilverWare\IconSetField\Extensions\ControllerExtension

@@ -1,0 +1,99 @@
+/* IconSetField Styles
+===================================================================================================================== */
+
+.field {
+  
+  &.iconset {
+    
+    ul.iconset {
+      
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      
+      li {
+        
+        padding: 0 $spacer-half $spacer-half 0;
+        
+        > input[type="checkbox"] {
+          
+          display: none;
+          
+          &:checked + label {
+            
+            color: $iconsetfield-checked-color;
+            border-color: $iconsetfield-checked-border-color;
+            background-color: $iconsetfield-checked-bg;
+            
+            > i.checked {
+              opacity: 1;
+            }
+            
+            > i.unchecked {
+              opacity: 0;
+            }
+            
+          }
+          
+          &:disabled + label {
+            color: $iconsetfield-disabled-color;
+            border-color: $iconsetfield-disabled-border-color;
+            background-color: $iconsetfield-disabled-bg;
+          }
+          
+          &:checked:disabled + label {
+            color: $input-color;
+            background-color: $iconsetfield-disabled-checked-bg;
+          }
+          
+        }
+        
+        > label {
+          
+          color: $input-color;
+          width: 100%;
+          margin: 0;
+          display: block;
+          position: relative;
+          font-size: $font-size-base;
+          line-height: $input-btn-line-height;
+          padding: $input-btn-padding-y $input-btn-padding-x;
+          border: $input-btn-border-width solid $input-border-color;
+          transition: $btn-transition;
+          background-color: $input-bg;
+          background-image: none;
+          background-clip: padding-box;
+          white-space: nowrap;
+          overflow: hidden;
+          
+          > i.checked,
+          > i.unchecked {
+            top: 50%;
+            right: $input-btn-padding-x;
+            position: absolute;
+            transform: translateY(-50%);
+            transition: $btn-transition;
+          }
+          
+          > i.checked {
+            opacity: 0;
+          }
+          
+          > i.unchecked {
+            opacity: 1;
+          }
+          
+          @include hover-focus {
+            color: $iconsetfield-hover-color;
+            background-color: $iconsetfield-hover-bg;
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}

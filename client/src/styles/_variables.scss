@@ -1,0 +1,20 @@
+/* SilverWare IconSetField Variables
+===================================================================================================================== */
+
+// Hover Colors:
+
+$iconsetfield-hover-color: darken($input-color, 5%) !default;
+$iconsetfield-hover-bg:    $gray-200 !default;
+
+// Checked Colors:
+
+$iconsetfield-checked-color:        $white !default;
+$iconsetfield-checked-bg:           theme-color("primary") !default;
+$iconsetfield-checked-border-color: theme-color("primary") !default;
+
+// Disabled Colors:
+
+$iconsetfield-disabled-color:        $gray-600 !default;
+$iconsetfield-disabled-bg:           $input-disabled-bg !default;
+$iconsetfield-disabled-border-color: $input-border-color !default;
+$iconsetfield-disabled-checked-bg:   $white !default;

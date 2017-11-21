@@ -1,0 +1,21 @@
+/* SilverWare IconSetField Bundle
+===================================================================================================================== */
+
+// Import SilverWare Theme Files:
+
+@import "~silverware-theme/styles/variables";
+@import "~silverware-theme/styles/mixins";
+
+// Import Bootstrap Styles:
+
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Import Local Variables:
+
+@import "variables";
+
+// Import Form Styles:
+
+@import "forms/IconSetField";
